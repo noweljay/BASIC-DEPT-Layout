@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>BASIC/DEPT Layout</title>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#">BASIC/DEPT.</a></li>
+    <li class="hideOnMobile"><a href="#">WORK</a></li>
+    <li class="hideOnMobile"><a href="#">ABOUT</a></li>
+    <li class="hideOnMobile"><a href="#">NEWS</a></li>
+    <li class="hideOnMobile"><a href="#">THINKING</a></li>
+    <li class="hideOnMobile"><a href="#">PLEDGE</a></li>
+    <li class="hideOnMobile"><a href="#">CAREERS</a></li>
+    <li class="hideOnMobile"><a href="#">CONTACTS</a></li>
+    <li class="menu-button" onclick=showSidebar()><a href="#"><i class="fa fa-bars"></i></a></li>
+  </ul>
+
+  <ul class="sidebar">
+    <li onclick=hideSidebar()><a href="#"><i class="fa fa-times"></i></a></li>
+    <li><a href="#">WORK</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="#">NEWS</a></li>
+    <li><a href="#">THINKING</a></li>
+    <li><a href="#">PLEDGE</a></li>
+    <li><a href="#">CAREERS</a></li>
+    <li><a href="#">CONTACTS</a></li>
+  </ul>
+</nav>
+
+<section class="banner">
+  <img src="https://images.unsplash.com/photo-1465628976988-fe43bda15798?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNjM2MzN8&ixlib=rb-4.1.0&q=85" alt="dark-bg" />
+</section>
+
+<section class="intro container">
+  <div class="intro-about">
+    <p>BASIC/DEPT is a global branding and digital design agency building products, services, and eCommerce experiences that turn cultural values into company value.</p>
+    <button><a href="#">SEE THE WORK</a></button>
+  </div>
+  <div class="intro-banner">
+    <img src="https://avatars.githubusercontent.com/u/29443842?s=280&amp;v=4" alt="BASIC/DEPT® · GitHub" />
+  </div>
+</section>
+
+<article class="container">
+  <div class="article">
+    <div class="article-img">
+      <img src="https://images.unsplash.com/photo-1583364504384-8ac5e83b098b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNjQ5NTR8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="article-about">
+      <h3>PATAGONIA</h3>
+      <p>AN ECOMMERCE EXPERIENCE DRIVEN BY PATAGONIA'S BOARD MISSION</p>
+    </div>
+  </div>
+
+  <div class="article">
+    <div class="article-img">
+      <img src="https://images.unsplash.com/photo-1680617741900-b52dd2ed7778?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NjgzNjh8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="article-about">
+      <h3>WILSON</h3>
+      <p>A CENTURY OLD SPORTS BRAND FINDING ITS PLACE IN CULTURE</p>
+    </div>
+  </div>
+
+  <div class="article">
+    <div class="article-img">
+      <img src="https://images.unsplash.com/photo-1565121526866-8029ab572c80?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0Njc4NjN8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="article-about">
+      <h3>GOOGLE STORE</h3>
+      <p>AN ECOMMERCE EXPERIENCE HELPING GOOGLE BRING ITS HARDWARE TO PEOPLE ACROSS THE GLOBE</p>
+    </div>
+  </div>
+</article>
+
+<section class="featured-brands container">
+  <div class="brand">
+    <div class="brand-img">
+      <img src="https://logowik.com/content/uploads/images/google-black1762.jpg" alt="Google Black Logo PNG vector in SVG, PDF, AI, CDR format" />
+    </div>
+    <div class="brand-info">
+      <h4>GOOGLE</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et nisi mi. Phasellus aliquet ullamcorper orci, eu imperdiet mi ultrices non. Phasellus interdum, lacus ut feugiat varius, tortor urna dictum enim, vitae rhoncus leo ante sit amet purus. Aliquam faucibus tempus ornare. Suspendisse ut venenatis justo. Fusce scelerisque ante at maximus aliquam.</p>
+    </div>
+  </div>
+
+  <div class="brand">
+    <div class="brand-img">
+      <img src="https://parcoffice.com/wp-content/uploads/2017/10/Logo-KFC.png" alt="Logo KFC · Parc Office" />
+    </div>
+    <div class="brand-info">
+      <h4>KFC</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et nisi mi. Phasellus aliquet ullamcorper orci, eu imperdiet mi ultrices non. Phasellus interdum, lacus ut feugiat varius, tortor urna dictum enim, vitae rhoncus leo ante sit amet purus. Aliquam faucibus tempus ornare. Suspendisse ut venenatis justo. Fusce scelerisque ante at maximus aliquam.</p>
+    </div>
+  </div>
+
+  <div class="brand">
+    <div class="brand-img">
+      <img src="https://logowik.com/content/uploads/images/wilson-black5472.logowik.com.webp" alt="Wilson Black Logo PNG vector in SVG, PDF, AI, CDR format" />
+    </div>
+    <div class="brand-info">
+      <h4>WILSON</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et nisi mi. Phasellus aliquet ullamcorper orci, eu imperdiet mi ultrices non. Phasellus interdum, lacus ut feugiat varius, tortor urna dictum enim, vitae rhoncus leo ante sit amet purus. Aliquam faucibus tempus ornare. Suspendisse ut venenatis justo. Fusce scelerisque ante at maximus aliquam.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ad">
+  <div class="ad-info">
+    <p>BASIC/DEPT HELPS BRANDS CONNECT W/ CULTURE</p>
+    <p>ADWEEK (AGENCY SPOTLIGHT)</p>
+    <button><a href="#">ABOUT US</a></button>
+  </div>
+  <div class="ad-img">
+    <img src="https://images.unsplash.com/photo-1512484776495-a09d92e87c3b?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNzk1OTZ8&ixlib=rb-4.1.0&q=85" />
+  </div>
+</section>
+
+<section class="news-head">
+  <div class="head">
+    <p>FEATURED <br> NEWS</p>
+  </div>
+  <div class="more">
+    <button><a href="#">VIEW ALL</a></button>
+  </div>
+</section>
+
+<section class="news">
+  <div class="news-content">
+    <div class="news-img">
+      <img src="https://images.unsplash.com/photo-1502465771179-51f3535da42c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDgwMDV8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="news-info">
+      <p>BASIC EARNS 12 NOMINATIONS IN 26TH ANNUAL WEBBY AWARDS</p>
+      <p>AWARDS 04-09-24</p>
+    </div>
+    <div class="news-more">
+      <a href="#"><i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="news-content">
+    <div class="news-img">
+      <img src="https://images.unsplash.com/photo-1502465771179-51f3535da42c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDgwMDV8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="news-info">
+      <p>BASIC EARNS 12 NOMINATIONS IN 26TH ANNUAL WEBBY AWARDS</p>
+      <p>AWARDS 04-09-24</p>
+    </div>
+    <div class="news-more">
+      <a href="#"><i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="news-content">
+    <div class="news-img">
+      <img src="https://images.unsplash.com/photo-1502465771179-51f3535da42c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDgwMDV8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="news-info">
+      <p>BASIC EARNS 12 NOMINATIONS IN 26TH ANNUAL WEBBY AWARDS</p>
+      <p>AWARDS 04-09-24</p>
+    </div>
+    <div class="news-more">
+      <a href="#"><i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="news-content">
+    <div class="news-img">
+      <img src="https://images.unsplash.com/photo-1502465771179-51f3535da42c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDgwMDV8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="news-info">
+      <p>BASIC EARNS 12 NOMINATIONS IN 26TH ANNUAL WEBBY AWARDS</p>
+      <p>AWARDS 04-09-24</p>
+    </div>
+    <div class="news-more">
+      <<a href="#"><i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="news-content">
+    <div class="news-img">
+      <img src="https://images.unsplash.com/photo-1502465771179-51f3535da42c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDgwMDV8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="news-info">
+      <p>BASIC EARNS 12 NOMINATIONS IN 26TH ANNUAL WEBBY AWARDS</p>
+      <p>AWARDS 04-09-24</p>
+    </div>
+    <div class="news-more">
+      <a href="#"><i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="news-content">
+    <div class="news-img">
+      <img src="https://images.unsplash.com/photo-1502465771179-51f3535da42c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDgwMDV8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="news-info">
+      <p>BASIC EARNS 12 NOMINATIONS IN 26TH ANNUAL WEBBY AWARDS</p>
+      <p>AWARDS 04-09-24</p>
+    </div>
+    <div class="news-more">
+      <a href="#"><i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="news-content">
+    <div class="news-img">
+      <img src="https://images.unsplash.com/photo-1502465771179-51f3535da42c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDgwMDV8&ixlib=rb-4.1.0&q=85" />
+    </div>
+    <div class="news-info">
+      <p>BASIC EARNS 12 NOMINATIONS IN 26TH ANNUAL WEBBY AWARDS</p>
+      <p>AWARDS 04-09-24</p>
+    </div>
+    <div class="news-more">
+      <a href="#"><i class="fa fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="content-pair">
+    <div class="footer-img">
+      <img src="https://pbs.twimg.com/profile_images/1511108902535897089/L4LnBIOE_400x400.jpg" alt="BASIC/DEPT® (@basicagency) / X" />
+    </div>
+    <div class="footer-about">
+      <p>We collaborate with ambitious brands and people. Let's build. <br> <span>biz@basicagency.com</span></p>
+    </div>
+  </div>
+
+  <div class="content-pair">
+    <div class="link">
+      <a href="#">STAY IN THE KNOW</a>
+    </div>
+    <div class="links">
+      <a href="#">SOCIAL</a>
+      <a href="#">INITIATIVES</a>
+      <a href="#">OFFICES</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
